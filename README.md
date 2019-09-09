@@ -1,5 +1,7 @@
 # fake_obstacle_perception
 
+https://docs.google.com/presentation/d/1a9HhpNVz3dTrvrPWjlhbl21qyUhf8xuZYC3HBtQ7C4o/edit?usp=sharing
+
 ## 機能
 - maker (rvizプラグイン)
 - publisher (rvizプラグイン)
