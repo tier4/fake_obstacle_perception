@@ -1,0 +1,11 @@
+<library path="lib/libfake_obstacle_perception">
+  <class name="rviz_plugins/FakeObstacleMaker" type="rviz_plugins::FakeObstacleMaker" base_class_type="rviz::Panel">
+    <description>A panel widget to make fake obstacle.</description>
+  </class>
+
+  <class name="rviz_plugins/FakeObstaclesPublisher" type="rviz_plugins::FakeObstaclesPublisher" base_class_type="rviz::Panel">
+    <description>A panel widget to publish fake obstacles.</description>
+  </class>
+</library>
+
+

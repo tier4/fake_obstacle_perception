@@ -1,0 +1,18 @@
+<!-- -->
+<launch>
+  <arg name="ns" default="/"/>
+  <arg name="execution_period" default="0.04"/>
+  <arg name="preset_path" default=""/>
+
+  <group ns="$(arg ns)">
+    <node pkg="fake_obstacle_perception" type="auto_publisher" name="auto_publisher" output="log">
+      <param name="execution_period" value="$(arg execution_period)"/>
+      <param name="preset_path" value="$(arg preset_path)"/>
+    </node>
+
+    <!-- rosrun rosservice rosservice call /[node name]/set_logger_level ros.[package name] DEBUG -->
+    <!--<node pkg="rosservice" type="rosservice" name="stop_demand_planner_set_logger_level_debug"
+          args="call stop_demand_planner/set_logger_level ros.stop_factor_search DEBUG"/>
+    -->
+  </group>
+</launch>
